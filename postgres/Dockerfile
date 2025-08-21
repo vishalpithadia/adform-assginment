@@ -3,7 +3,7 @@ FROM postgres:16-alpine
 # Set environment variables for user, password, and database
 ENV POSTGRES_USER=admin
 ENV POSTGRES_PASSWORD=adminpassword
-ENV POSTGRES_DB=assignmentdb
+ENV POSTGRES_DB=currencydb
 
 EXPOSE 5432
 

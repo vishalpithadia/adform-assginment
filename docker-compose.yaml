@@ -1,0 +1,14 @@
+version: "3"
+services:
+  postgres-server:
+    build:
+      context: ./postgres
+  api:
+    build:
+      context: ./API/
+    depends_on:
+      - postgres-server
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
