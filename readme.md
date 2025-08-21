@@ -14,6 +14,8 @@ Check out the files from the git and run following command
 docker-compose up
 ```
 
+**if you run this command first time it might take 10 to 15 mins as all the images will be downloaded please have patience**
+
 then Navigate to followin Url
 
 ```
