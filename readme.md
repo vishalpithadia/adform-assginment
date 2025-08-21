@@ -19,7 +19,7 @@ docker-compose up
 then Navigate to followin Url
 
 ```
-https://localhost:8080/swagger/
+http://localhost:8080/swagger/
 ```
 
 **<span style="color:red;">Note:</span>** if it is still does not work rerun the following command
